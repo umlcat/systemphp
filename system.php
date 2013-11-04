@@ -5,6 +5,11 @@
 // Base Module.
 // Important: Its called with "require_once", at the "index.php" file.
 // ======================================================================
+// --> includes
+
+// LOOK MA, WORKS BOTH ON WINDOWZE AND UNICSE !!!
+system_require_once("^/anylibrary.php");
+// ======================================================================
 
 /* ## string */ function system_internal_slashtobackslash(/* ## string */ $source)
 {
